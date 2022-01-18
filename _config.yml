@@ -1,0 +1,122 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Maxwell Felix
+title: Senior Data Engineer - DevOps
+email: maxwellfelix@gmail.com
+website: about.maxwellfelix.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  m4xw311
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: maxwell-felix
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I'm a senior data engineer working on DevOps and CICD for databases.
+
+content:
+  - title: Technical Skills
+    layout: text
+    content: |
+      <mark>AWS</mark><mark>AWS</mark>
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: American Express
+        link: https://www.americanexpress.com/
+        # link_text: boringcompany.com
+        sub_title: Senior DevOps Engineer
+        caption: 2016 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          Some description here
+          * one
+          * two
+      - layout: left
+        title: Tata Consultancy Services
+        link: https://www.tcs.com/
+        # link_text: boringcompany.com
+        sub_title: I.T. Analyst
+        caption: 2011 - 2016
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          Some description here
+          * one
+          * two
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Bachelor of Technology
+        sub_title: Information Technology
+        caption: 2007 - 2011
+        description: |
+          Governement Engineering College,<br/>
+          Barton Hill, Thiruvananthapuram<br/>
+          University of Kerala<br/>
+
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+references_title: References on request
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
