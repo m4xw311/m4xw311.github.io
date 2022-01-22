@@ -48,13 +48,20 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a senior data engineer working on DevOps and CICD for databases.
+  I'm a senior data engineer with extensive experience on DevOps and CICD for databases.
 
 content:
   - title: Technical Skills
     layout: text
     content: |
-      <mark>AWS</mark><mark>AWS</mark>
+      <mark>Ansible</mark>
+      <mark>Terraform</mark>
+      <mark>AWS</mark>
+      <mark>Jenkins</mark>
+      <mark>GitHub Actions</mark>
+      <mark>GitLab CI</mark>
+      <mark>Go</mark>
+      <mark>Python</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
